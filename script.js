@@ -64,10 +64,10 @@ function updateCountdown()
 	remainingSeconds = 60 - differenceInSeconds;
 
 	switch(true) {
-	  case remainingMinutes >= 23 && remainingMinutes < 24:
+	  case remainingMinutes >= 5 && remainingMinutes < 10:
 	    time.style.color = "#f1de59"; // Amarillo
 	    break;
-	  case remainingMinutes < 23:
+	  case remainingMinutes < 5:
 	    time.style.color = "#eb8f8f"; // Rojo
 	    break;
 	}
