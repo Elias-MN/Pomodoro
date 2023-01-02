@@ -16,6 +16,8 @@ body{
 
 #time{
   font-size: 64px;
+  text-shadow: 2px 2px #707070;
+  color: #5cc75c; /* Verde */
 }
 
 
