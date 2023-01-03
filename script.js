@@ -13,11 +13,11 @@ let differenceInSeconds;
 let minutesPomodoro = 25;
 let millisecondsPomodoro = 1500000;
 
-
 time.style.display = "none";
 
 buttonStart.addEventListener("click", function ()
 {
+	time.style.color = "#5cc75c"; // Verde
 	dateStart = new Date();
 
 	buttonStart.style.display = "none";
