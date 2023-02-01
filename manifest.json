@@ -1,0 +1,11 @@
+{
+    "name": "Pomodoro",
+    "version": "1.0.0",
+    "description": "Pomodoro",
+    "manifest_version": 3,
+    "author": "Elías",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Pomodoro"
+    }
+}
